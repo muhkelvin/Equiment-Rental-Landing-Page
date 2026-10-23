@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F5F4F0;
+  --color-charcoal: #171916;
+  --color-charcoal-card: #20231F;
+  --color-charcoal-muted: #282C27;
+  --color-charcoal-border: #2C302B;
+  --color-lime: #C7F464;
+  --color-lime-hover: #B5E948;
+  --color-surface: #E9E8E1;
+  --color-surface-hover: #DFDDD4;
+  --color-border-subtle: #D8D7CE;
+  --color-body: #64665F;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Grotesk', ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-canvas);
+    color: var(--color-charcoal);
+  }
+}
+
+/* Custom styling for editorial production catalog feel */
+.editorial-border {
+  border-color: var(--color-border-subtle);
+}
+
+.charcoal-border {
+  border-color: var(--color-charcoal-border);
+}
+
+/* Technical badge marker */
+.tech-tag {
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Smooth details/summary accordion arrow */
+details summary::-webkit-details-marker {
+  display: none;
+}
+details[open] summary svg.chevron {
+  transform: rotate(180deg);
+}
+
+/* Reduced motion support as per PRD Section 8.2 & 12 */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
