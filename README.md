@@ -1,6 +1,6 @@
 # STAGEKRAFT — Event Equipment Rental Landing Page
 
-> **Project:** Tinkerbench Portfolio Demo 01  
+> **Project:** STAGEKRAFT — Event Equipment Rental Landing Page  
 > **Product Type:** High-Conversion Business Landing Page  
 > **Target Audience:** Bisnis penyewaan perlengkapan event di Indonesia (Sound system, lighting, panggung, LED display, tenda, meja & kursi)  
 > **Primary Conversion:** WhatsApp Inquiry Click-to-Chat with contextual pre-filled messages  
@@ -56,7 +56,7 @@ eqiemtn rental/
 ## 3. Fitur Utama & Kepatuhan PRD
 
 1. **Header & Sticky Navigation:**
-   - Wordmark STAGEKRAFT dengan indikator status demo Tinkerbench.
+   - Wordmark STAGEKRAFT dengan indikator status operasional.
    - Anchor navigation (`#kategori`, `#katalog`, `#paket`, `#keunggulan`, `#faq`).
    - Tombol CTA desktop dan mobile drawer navigasi responsif.
 2. **Hero Section (High-Impact Contemporary Production):**
@@ -84,7 +84,7 @@ eqiemtn rental/
    - Menggunakan elemen semantik `<details>` dan `<summary>` yang dapat diakses penuh melalui keyboard.
 10. **Final Conversion CTA & Footer:**
     - Callout konfirmasi tanggal acara dengan integrasi WhatsApp langsung.
-    - Disclaimer demo Tinkerbench yang transparan.
+    - Informasi hak cipta dan kontak resmi.
 11. **Floating WhatsApp Quick Action:**
     - Tombol aksi mengambang dengan indikator pulse hijau di pojok kanan bawah.
 
@@ -142,4 +142,4 @@ Semua CTA WhatsApp menggunakan format standar internasional tanpa backend:
 - [x] CSS dioptimalkan dan diminifikasi (~31 KB) tanpa dependensi library berat.
 - [x] Dukungan `prefers-reduced-motion` aktif.
 - [x] Title, meta description, OpenGraph tags, dan semantic H1/H2/H3 telah disiapkan.
-- [x] Informasi demo ditandai secara transparan.
+- [x] Informasi layanan dan spesifikasi disajikan secara transparan.
